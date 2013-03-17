@@ -1,4 +1,4 @@
 jpd-aobench(Jewelpod aobench)
 ===========
 
-aobenh for SegaToys Jewelpod
+aobench for SegaToys Jewelpod
