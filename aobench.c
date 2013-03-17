@@ -1,4 +1,7 @@
 // AOBench implementation with fixed point numbers
+// Original version by Syoyo Fujita
+// Fixed float version by Satoshi Ueyama
+
 // #include <stdio.h>
 #include "Types.h"
 #include "aobench.h"
