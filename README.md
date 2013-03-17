@@ -5,6 +5,6 @@ jpd-aobench(Jewelpod aobench)
 
 ![Rendering](http://24.media.tumblr.com/09904de2a1deed33fa557ae116e5df55/tumblr_mjsgi7eOrD1qz5devo1_250.png) 
 
-aobench for SegaToys Jewelpod
+aobench for SegaToys [Jewelpod](http://www.jewelpet.jp/products/diamond/pop06.html)
 
 Original version of aobench(Java/proce55ing) is here: https://code.google.com/p/aobench/

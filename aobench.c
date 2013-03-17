@@ -1,6 +1,6 @@
 // AOBench implementation with fixed point numbers
 // Original version by Syoyo Fujita
-// Fixed float version by Satoshi Ueyama
+// Fixed point version by Satoshi Ueyama
 
 // #include <stdio.h>
 #include "Types.h"
@@ -172,9 +172,9 @@ short ambient_occlusion(const Isect *isect, Sphere* spheres, Plane* plane) {
 	vec basis[3];
 	Fixed occlusion = 0;
 	const Fixed far_limit = 10 * FIX_SCALE;
-	int	i, j;
-	int	ntheta = sNumAOSamples;
-	int	nphi   = sNumAOSamples;
+	int i, j;
+	int ntheta = sNumAOSamples;
+	int nphi   = sNumAOSamples;
 	
 	const int r_eps = 512;
 	
