@@ -13,8 +13,8 @@ static void initGlobals();
 static void buildAOBenchScene(Scene* pScene);
 
 int main() {
-	const int renderWidth  = 64;
-	const int renderHeight = 64;
+	const int renderWidth  = 128;
+	const int renderHeight = 128;
 	const int sx = (kFrameBufferWidth  - renderWidth) >> 1;
 	const int sy = (kFrameBufferHeight - renderHeight) >> 1;
 	int fbOffset = kFrameBufferWidth * sy + sx;

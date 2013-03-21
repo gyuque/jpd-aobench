@@ -11,12 +11,12 @@ LINKER = xlink16
 INCLUDES = -I. -I"C:\Program Files\Sunplus\unSP IDE 2.2.1\library\CLib16\include"
 OLEVEL   = 0
 OPT      = -S -Wall -mglobal-var-iram -mISA=2.0 -O$(OLEVEL)
-ASFLAGS  = -t4 -d
-CASFLAGS = -t4
+ASFLAGS  = -t4 -d -sr
+CASFLAGS = -t4 -sr -wpop
 CFLAGS	= $(OPT) $(INCLUDES) 
 
 "$(OUTDIR)/$(PRODUCT).bin": $(patsubst %, $(OUTDIR)/%.obj, $(OBJS)) 
-	$(LINKER) $(PRODUCT).lik -body SPMC75F2313A -bfile SPMC75F2313A.cpt
+	$(LINKER) $(PRODUCT).lik -body JEWELPOD -nobdy -bfile Jewelpod.bdy
 
 
 "$(OUTDIR)/%.obj": "$(OUTDIR)/%.asm"

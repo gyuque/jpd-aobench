@@ -10,25 +10,25 @@ Locate: IRAM in "tinymath.obj" at 750
 Locate: IRAM in "aobench.obj"  at 760
 Locate: IRAM in "main.obj"     at 770
 
-Locate: CODE in "main.obj" at 8000
-Locate: CODE in "driver.obj" at 8400
-Locate: CODE in "aobench.obj" at 8800
-Locate: CODE in "handlers.obj" at a000
-Locate: CODE in "tinymath.obj" at a900
+Locate: CODE in "main.obj"     at 270000
+Locate: CODE in "driver.obj"   at 270400
+Locate: CODE in "aobench.obj"  at 270800
+Locate: CODE in "handlers.obj" at 272000
+Locate: CODE in "tinymath.obj" at 272900
 
-Locate: CODE in "muli2" at c000
-Locate: CODE in "divi2" at c020
-Locate: CODE in "mulu2" at c070
-Locate: CODE in "divu2" at c0a0
-Locate: CODE in "mulu1" at c1a0
-Locate: CODE in "addf2"  at c300
-Locate: CODE in "mulf2"  at c400
+Locate: CODE in "muli2"  at 274000
+Locate: CODE in "divi2"  at 274020
+Locate: CODE in "mulu2"  at 274070
+Locate: CODE in "divu2"  at 2740a0
+Locate: CODE in "mulu1"  at 2741a0
+Locate: CODE in "addf2"  at 274300
+Locate: CODE in "mulf2"  at 274400
 
-Locate: CODE in "divf2"  at ca00
-Locate: CODE in "rshu2"  at cb00
-Locate: CODE in "lshiu2" at cb80
-Locate: CODE in "cvi2f2" at cc00
-Locate: CODE in "cvu2f2" at cc80
-Locate: CODE in "cvf2i2" at cd00
-Locate: CODE in "cvi1f2" at cd80
-Locate: CODE in "cvf2i1" at ce00
+Locate: CODE in "divf2"  at 274a00
+Locate: CODE in "rshu2"  at 274b00
+Locate: CODE in "lshiu2" at 274b80
+Locate: CODE in "cvi2f2" at 274c00
+Locate: CODE in "cvu2f2" at 274c80
+Locate: CODE in "cvf2i2" at 274d00
+Locate: CODE in "cvi1f2" at 274d80
+Locate: CODE in "cvf2i1" at 274e00
